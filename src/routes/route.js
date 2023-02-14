@@ -9,6 +9,6 @@ router.post('/createUser',createUser)
 router.post('/login', login)
 
 router.post('/createProduct', authentication, createProduct)
-router.post('/updateeProduct', authentication, updateProduct)
+router.put('/updateeProduct', authentication, updateProduct)
 
 module.exports = router
